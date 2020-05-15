@@ -1,0 +1,12 @@
+
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item><image src="/img/family/鹦鹉.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/family/鹦鹉1.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/family/鹦鹉2.jpg"></image></swiper-item>
+  </swiper>
+  <view class="tt">
+    <text>------ 鹦鹉鉴赏 ------</text>
+  </view>
+
+</view>

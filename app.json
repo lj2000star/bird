@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/image/image",
+    "pages/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "识鸟",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"gray"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"icons/首页.png",
+      "selectedIconPath":"icons/_首页 .png"},
+      {
+      "pagePath": "pages/image/image",
+      "text": "拍照",
+      "iconPath":"icons/拍照.png",
+      "selectedIconPath":"icons/_拍照 .png"}
+      
+      
+  
+    ],
+      "color":"#0094ff",
+      "selectedColor":"#ff9400"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  
+  "debug": false
+} 

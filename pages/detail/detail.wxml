@@ -1,0 +1,49 @@
+<!--pages/detail/detail.wxml-->
+<view class="content">
+  <text>保护等级</text><text>{{data.protect_level}}</text> 
+</view>
+<view wx:if="{{data.name=='虎皮鹦鹉'||data.name=='桃脸牡丹鹦鹉'||data.name=='鸡尾鹦鹉'}}">请注意这不是监管类鹦鹉!</view>
+<view class="hr"></view>
+<view class="content">
+  <text>法律条文</text><text>{{data.laws}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>名称</text><text>{{data.name}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>别名</text><text>{{data.altername}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>拉丁名</text><text>{{data.latinname}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>英文名</text><text>{{data.englishname}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>目</text><text>{{data.order}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>科</text><text>{{data.family}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>属</text><text>{{data.genus}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>家乡</text><text>{{data.home}}</text> 
+</view>
+<view class="hr"></view>
+<view class="content">
+  <text>主要资料</text><text>{{data.details}}</text> 
+</view>
+<view class="hr"></view>
+
+<view>{{data.imgs}}</view>
+<!-- 其他属性以此类推 -->

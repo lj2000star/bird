@@ -1,0 +1,19 @@
+/* pages/detail/detail.wxss */
+.hr {
+  width:100vw;
+  height:1px;
+  margin:0 auto;margin-top:30rpx;margin-bottom: 10rpx;
+  background-color: #e5e5e5;
+}
+.name {
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width:90vw;
+  margin:10rpx auto;
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
